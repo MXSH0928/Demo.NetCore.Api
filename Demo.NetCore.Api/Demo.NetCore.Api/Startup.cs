@@ -44,6 +44,9 @@ namespace Demo.NetCore.Api
                 app.UseDeveloperExceptionPage();
             }
 
+            // ToDo: Remove
+            app.UseDeveloperExceptionPage();
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
